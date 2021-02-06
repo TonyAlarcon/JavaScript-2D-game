@@ -1,0 +1,44 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:2px;
+}
+#nav {
+    line-height:20px;
+    background-color:#eeeeee;
+    width:30%;
+    height: 600px;
+    float:left;
+    padding:5px;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 150px;
+}
+
+.startButton {
+    background-color: dodgerblue;
+    color: white;
+    width: 150px;
+}
+#section {
+    text-align: center;
+    width:40%;
+    float:left;
+    padding:10px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+

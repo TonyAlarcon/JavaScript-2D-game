@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="header">
+    <h1>The Game Project</h1>
+</div>
+
+<div id="nav">
+    <p>Directions: Press "Up", "Down", "Left", or "Right" arrow keyboards to move the player. Goal is for the player
+    to reach the top of the arena while avoiding all obstacles. You begin with 3 lives. Game is over after you
+    have exhausted all your lives. Default difficulty level is medium. Click on "Start/Resume" button to begin playing.
+        <br><br>Good luck.
+    </p>
+    Choose Your Difficulty:
+    <ul class="no-bullets">
+        <li><button class="button" onclick="easy()">Easy</button></li>
+        <li><button class="button" onclick="medium()">Medium</button></li>
+        <li><button class="button" onclick="hard()">Hard</button></li>
+        <li><button class="button" onclick="impossible()">Impossible</button></li>
+    </ul>
+    <br>
+    Control Panel:
+    <ul class="no-bullets">
+        <li><button class="startButton" onclick="startGame()">Start/Resume</button></li>
+        <li><button class="button" onclick="pauseGame()">Pause</button></li>
+        <li><button class="button" onclick="resetGame()">Reset</button></li>
+    </ul>
+</div>
+
+<div id="section">
+    <canvas id="canvas" width="300" height="550" style="border:1px solid #000000;"></canvas>
+</div>
+
+<div id="footer">
+    Created by Pedro A. Alarcon
+</div>
+<script src="game.js"></script>
+</body>
+</html>
